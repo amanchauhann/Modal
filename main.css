@@ -1,24 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@font-face {
+    font-family: 'avenir';
+    src: url(fonts/Avenir.ttf);
+}
+
+/* IGNORE THIS */
+
+*{
+  box-sizing: border-box;
+}
+
+
 #modalContainer{
-    display: none;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     background-color: rgba(0,0,0,0.5)
-  
   }
   
   #modal{
     border: 1px solid black;
-    background-color: royalblue;
+    background-color:  #FFFEFE;;
     text-align: center;
-    max-width: 500px;
+    max-width: 68rem;
+    height: 41.25rem;
     padding: 5rem;
     position: relative;
-    top: 30%;
+    top: 11.3rem;
     margin: auto
   }
+
+.modalSubContainer{
+  border: 1px solid black;
+  background-color: #FFFEFE;
+  max-width: 68rem;
+  height: 41.25rem;
+  margin: auto;
+}
+
+/* STARTS FROM HERE */
+
+/* ==========typograpphy========== */
+
+.modalHeading{
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 33px;
+line-height: 104.19%;
+letter-spacing: -0.075em;
+text-transform: capitalize;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.modalExtra{
+  font-family: 'Avenir';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22.22px;
+  letter-spacing: -0.055rem;
+}
+
+.modalExtra span{
+  font-weight: 900;
+  color: rgba(104, 199, 84, 1);
+  text-decoration: underline;
+}
+
+.submitBtn{
+  font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 158.69%;
+letter-spacing: -0.055em;
+color: #FFFFFF;
+}
   
-  
-  
+.modalCondition{
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 158.69%;
+  letter-spacing: -0.055em;
+  color: #000000;
+}
+
+.conditionSpan{
+  color: rgba(104, 199, 84, 1);
+}
+
+
+/* ==========Styling(dimensions etc.)========== */
+
+
+
+.logoModal{
+  max-width: 130px;
+  max-height: 35px;
+}
+
+/* .modalHeading{
+  margin-top: 24px;
+  margin-bottom: 0;
+} */
+
+.modalSubContainer input{
+  display: block;
+  min-height: 2.6875rem;
+  min-width: 18.322rem;
+  border-radius: 5px;
+  border-color: rgba(123, 123, 123, 0.39);
+  margin: 10px 0;
+}
+
+.modalSubContainer button{
+  min-height: 2.6875rem;
+  min-width: 18.322rem;
+  border-radius: 5px;
+  background-color: rgba(116, 207, 78, 1);
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) ;
+}
+
+.blackConditionSpan{
+  color: black;
+}
+
+/* ===========Layout========== */
+
+.modalSubContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* .leftModal{
+  border: 2px solid black;
+
+}
+
+.rightModal{
+  border: 2px solid black;
+} */
+
+
+

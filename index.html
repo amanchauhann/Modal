@@ -9,11 +9,39 @@
 </head>
 <body>
     <div id="modalContainer">
-        <div id="modal">
-          <h2>Hello I am Modal</h2>
-          <h3>Enter your modal's text</h3>
-          <button id="closeModal">Close Modal</button>
+      <div class="modalSubContainer">
+
+        <div class="leftModal">
+          <img class="logoModal" src="images/logo.png" />
+          <h1 class="modalHeading">sign up</h1>
+          <p class="modalExtra">Already have an account? <span class="modalExtraSpan">Login?</span></p>
+          <form class="email-collector" action="#" method="POST">
+            <label>
+              <input type="text" required placeholder="name">
+            </label>
+            <label>
+              <input type="email" required placeholder="Email">
+            </label>
+            <label>
+              <input type="number" required placeholder="Phone Number"> 
+            </label>
+            <label>
+              <input type="password" required placeholder="Password">
+            </label>
+            <label>
+              <input type="text" required placeholder="Refferal Code">
+            </label>
+            <button class="submitBtn" type="submit">SIGN UP</button>
+          </form>
+          <p class="modalCondition">By creating an account, I accept the<span class="conditionSpan">Terms & Conditions <span class="blackConditionSpan">&</span> Privacy Policy</span></p>
         </div>
+
+        <div class="rightModal">
+          <img src="images/modal.png" />
+        </div>
+      </div>
+        
+        
       </div>
       
       <h1> Hi Let me tell you about MODAL</h1>
